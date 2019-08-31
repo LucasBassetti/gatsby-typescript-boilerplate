@@ -1,0 +1,15 @@
+{
+  "extends": [
+    "tslint-config-airbnb",
+    "tslint-react",
+    "tslint-config-prettier",
+    "tslint-react-a11y"
+  ],
+  "rules": {
+    "no-eval": false,
+    "import-name": false,
+    "jsx-no-lambda": false,
+    "react-a11y-anchors": false,
+    "variable-name": [true, "ban-keywords", "check-format", "allow-pascal-case"]
+  }
+}
